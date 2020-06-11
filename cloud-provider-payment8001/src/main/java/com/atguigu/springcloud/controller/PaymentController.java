@@ -70,7 +70,7 @@ public class PaymentController {
             System.out.println(instance.getHost()+"\t"+instance.getInstanceId());
         }
 
-       hhh grfgfh   return this.discoveryClient;
+       hhdssdf return this.discoveryClient;
     }
 
 
