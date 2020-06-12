@@ -26,8 +26,6 @@ public class PaymentService {
                     TimeUnit.SECONDS.sleep(5);
                         } catch (Exception e) {
                             e.printStackTrace();
-                        }finally {
-
                         }
         return "线程池："+Thread.currentThread().getName()+"paymentService"+id+"haha"+"耗时 3秒";
     }
