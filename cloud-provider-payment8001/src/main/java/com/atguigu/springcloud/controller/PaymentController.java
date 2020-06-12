@@ -69,8 +69,7 @@ public class PaymentController {
         for (ServiceInstance instance : instances) {
             System.out.println(instance.getHost()+"\t"+instance.getInstanceId());
         }
-
-       hhdssdf return this.discoveryClient;
+        return this.discoveryClient;
     }
 
 
