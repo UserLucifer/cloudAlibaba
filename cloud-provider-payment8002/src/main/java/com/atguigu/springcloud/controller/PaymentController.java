@@ -45,7 +45,7 @@ public class PaymentController {
         System.out.println("查询结果："+payment);
         logger.info("查询结果："+payment);
         if (payment != null) {
-            return new CommonResult(200,"查询成功",payment);
+            return new CommonResult(200,"查询成功：端口号："+serverPort,payment);
         } else {
             return new CommonResult(400,"没有对应记录",null);
         }
