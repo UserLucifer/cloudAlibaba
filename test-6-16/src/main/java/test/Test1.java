@@ -7,7 +7,7 @@ class Example {
     char[] testCharArray = {'a','b','c'};
 
     public static void main(String[] args) {
-        Example ex = new Example();
+        Example ex = new  Example();
         ex.change(ex.testString,ex.testCharArray);
         System.out.println(ex.testString);
         System.out.println(ex.testCharArray);
