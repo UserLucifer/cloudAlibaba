@@ -5,7 +5,7 @@ spring:
   application:
     name: config-client
   cloud:
-    #Config客户端配置
+    #Config客户端配置                                                                                                     }
     config:
       label: master #分支名称
       name: config #配置文件名称
